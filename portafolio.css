@@ -1,9 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-}
+ }
 
-header {
+
+ header {
   width: 100%;
   height: 70px;
   display: flex;
@@ -13,16 +14,15 @@ header {
   word-spacing: 20px;
   position: fixed;
   box-shadow: 0px 0px 7px 0px gray;
-}
-.nav1 {
+ }
+ .nav1 {
   font-size: 13px;
   color: rgb(116, 111, 111);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   position: relative;
   right: 200px;
   bottom: 25px;
-  
-}
+ }
 .contacto {
   width: 120px;
   height: 25px;
@@ -30,83 +30,85 @@ header {
   border-radius: 20px;
   border: none;
   color: white;
-}
+ }
+ .contacto:hover {
+  background-color: rgb(224, 146, 244);
+ }
 
-.section1 {
+
+ .section1 {
   width: 100%;
-padding-top: 10em;
+  padding-top: 6em;
   background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.inicio{
-  padding: 5em;  
-}
-.holasoy{
-  font-family: 'Koulen', cursive;
+ }
+ .inicio {
+  padding: 5em;
+ }
+ .holasoy {
+  font-family: "Koulen", cursive;
   font-size: 2em;
   margin-bottom: 0.5em;
- 
-}
-.delfina{
-  font-family: 'Nanum Gothic', sans-serif;
+ }
+ .delfina {
+  font-family: "Nanum Gothic", sans-serif;
   color: rgb(19, 176, 137);
   font-size: 4em;
   margin-bottom: 0.5em;
-  
-   
-}
-.parrafoinicio{
-  font-family: 'Roboto', sans-serif;
+ }
+ .parrafoinicio {
+  font-family: "Roboto", sans-serif;
   font-size: 1em;
   margin-bottom: 1em;
-  
-}
-
-.botoninicio {
+ }
+ .botoninicio {
   width: 10em;
   height: 3em;
   border-radius: 20px;
   background-color: rgb(211, 124, 233);
   border: none;
+ }
+ .botoninicio a {
+  text-decoration: none;
+ }
+ .botoninicio a:active {
   color: white;
- 
-}
-.botoninicio:hover{
+ }
+ .botoninicio:hover {
   background-color: rgb(121, 61, 136);
-
-}
-
-img {
+ }
+ img {
   height: 100%;
   width: 100%;
   object-fit: contain;
-}
-.imageninicial {
+ }
+ .imageninicial {
   height: 500px;
   width: 400px;
-}
+ }
 
-.section2 {
+
+ .section2 {
   width: 100%;
- background-color: rgb(243, 243, 243);
- padding-bottom: 8em;
-}
-.textosection2{
-    text-align: center;
-    padding: 5em;
-}
-.tituloconocimientos{
-    padding-bottom: 1.2em;
-    font-family: 'Koulen', sans-serif;
-    font-size: 3em;  
-}
-.parrafoconocimientos{
-  font-family: 'Montserrat Alternates', sans-serif;
+  background-color: rgb(243, 243, 243);
+  padding-bottom: 8em;
+ }
+ .textosection2 {
+  text-align: center;
+  padding: 5em;
+ }
+ .tituloconocimientos {
+  padding-bottom: 1.2em;
+  font-family: "Koulen", sans-serif;
+  font-size: 3em;
+ }
+ .parrafoconocimientos {
+  font-family: "Montserrat Alternates", sans-serif;
   font-size: 1.2em;
-}
-.misconocimientos {
+ }
+ .misconocimientos {
   width: 45%;
   height: 25em;
   margin: auto;
@@ -114,10 +116,10 @@ img {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-}
-.cajita {
-    width: 12em;
-    height: 12em;
+ }
+ .cajitaconocimiento {
+  width: 12em;
+  height: 12em;
   display: flex;
   border-radius: 5px;
   background-color: white;
@@ -125,44 +127,104 @@ img {
   align-items: center;
   justify-content: center;
   border: solid 1px rgb(187, 184, 184);
-}
-.cajita i {
-    margin-bottom: 15px;
+ }
+ .cajitaconocimiento i {
+  margin-bottom: 15px;
   font-size: 80px;
-}
-.textocajita{
-  font-family: 'Josefin Sans', sans-serif;
+ }
+ .textocajita {
+  font-family: "Josefin Sans", sans-serif;
   font-size: 0.9em;
+ }
+ .cajitaconocimiento:hover {
+  border-color: purple;
+ }
 
-}
-.cajita:hover{
-  border-color: purple
-}
 
-.section3{
-    width: 100%;
-    background-color: rgb(134, 199, 183);
-}
-.textosection3{
-  width: 45%;
-  background-color: blue;
+ .section3 {
+  width: 100%;
+  background-color: rgb(134, 199, 183);
+ }
+ .textosection3 {
+  width: 50%;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  background-color: rgb(134, 199, 183);
   margin: auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-}
-.comillassection3{
-  
-  font-family: 'Space Grotesk', sans-serif;
-}
-.parrafosection3 {
-  font-family: 'Roboto', sans-serif;
-}
+ }
+ .comillas {
+  font-size: 5em;
+  padding-bottom: 25px;
+ }
+ .parrafosection3 {
+  font-family: "Montserrat Alternates", sans-serif;
+  text-align: center;
+  padding-bottom: 25px;
+ }
+ .someonesection3 {
+  font-family: "Koulen", sans-serif;
+  font-size: 2em;
+ }
 
 
-*// me falta acomodar el texto de section 3 y la letra.
-cuando agrando las comillas, el texto se va mucho mas abajo.
-No me cambia el color de las letras del boton "lo que hago" en el inicio.
-Cuando apreto el boton, se pone rojo porque es un buttom, como
-hago para que no?
+ .section4{
+  width: 100%;
+  background-color: rgb(243, 243, 243);
+  padding-bottom: 15em;
+ }
+ .contenedorproyectos {
+  text-align: center;
+  padding: 5em;
+ }
+ .misproyectos{
+  padding-bottom: 1.2em;
+  font-family: "Koulen", sans-serif;
+  font-size: 3em;
+ }
+ .parrafomisproyectos{
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 1.2em;
+ }
+ .cajasproyecto{
+  width: 67%;
+  height: 51em;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+ .cajitaproyecto{
+  width: 18em;
+  height: 16em;
+  display: flex;
+  border-radius: 5px;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  border: solid 1px rgb(187, 184, 184);
+ }
+ .textocajitaproyecto{
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.1em;
+  margin-bottom: 1em;
+ }
+ .cajitaproyecto:hover {
+   border: solid 1px purple;
+ }
+ .textocajitaproyecto:hover{
+
+ }
+
+ *// no me cambia el color del texto de la cajita proyecto.
+
+
+
+
+
+
