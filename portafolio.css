@@ -1,10 +1,9 @@
 * {
   margin: 0;
   padding: 0;
- }
+}
 
-
- header {
+header {
   width: 100%;
   height: 70px;
   display: flex;
@@ -14,15 +13,15 @@
   word-spacing: 20px;
   position: fixed;
   box-shadow: 0px 0px 7px 0px gray;
- }
- .nav1 {
+}
+.nav1 {
   font-size: 13px;
   color: rgb(116, 111, 111);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   position: relative;
   right: 200px;
   bottom: 25px;
- }
+}
 .contacto {
   width: 120px;
   height: 25px;
@@ -30,85 +29,83 @@
   border-radius: 20px;
   border: none;
   color: white;
- }
- .contacto:hover {
+}
+.contacto:hover {
   background-color: rgb(224, 146, 244);
- }
+}
 
-
- .section1 {
+.section1 {
   width: 100%;
   padding-top: 6em;
   background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
- }
- .inicio {
+}
+.inicio {
   padding: 5em;
- }
- .holasoy {
+}
+.holasoy {
   font-family: "Koulen", cursive;
   font-size: 2em;
   margin-bottom: 0.5em;
- }
- .delfina {
+}
+.delfina {
   font-family: "Nanum Gothic", sans-serif;
   color: rgb(19, 176, 137);
   font-size: 4em;
   margin-bottom: 0.5em;
- }
- .parrafoinicio {
+}
+.parrafoinicio {
   font-family: "Roboto", sans-serif;
   font-size: 1em;
   margin-bottom: 1em;
- }
- .botoninicio {
+}
+.botoninicio {
   width: 10em;
   height: 3em;
   border-radius: 20px;
   background-color: rgb(211, 124, 233);
   border: none;
- }
- .botoninicio a {
+}
+.botoninicio a {
   text-decoration: none;
- }
- .botoninicio a:active {
+}
+.botoninicio a:active {
   color: white;
- }
- .botoninicio:hover {
+}
+.botoninicio:hover {
   background-color: rgb(121, 61, 136);
- }
- img {
+}
+img {
   height: 100%;
   width: 100%;
   object-fit: contain;
- }
- .imageninicial {
+}
+.imageninicial {
   height: 500px;
   width: 400px;
- }
+}
 
-
- .section2 {
+.section2 {
   width: 100%;
   background-color: rgb(243, 243, 243);
   padding-bottom: 8em;
- }
- .textosection2 {
+}
+.textosection2 {
   text-align: center;
   padding: 5em;
- }
- .tituloconocimientos {
+}
+.tituloconocimientos {
   padding-bottom: 1.2em;
   font-family: "Koulen", sans-serif;
   font-size: 3em;
- }
- .parrafoconocimientos {
+}
+.parrafoconocimientos {
   font-family: "Montserrat Alternates", sans-serif;
   font-size: 1.2em;
- }
- .misconocimientos {
+}
+.misconocimientos {
   width: 45%;
   height: 25em;
   margin: auto;
@@ -116,8 +113,8 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
- }
- .cajitaconocimiento {
+}
+.cajitaconocimiento {
   width: 12em;
   height: 12em;
   display: flex;
@@ -127,25 +124,24 @@
   align-items: center;
   justify-content: center;
   border: solid 1px rgb(187, 184, 184);
- }
- .cajitaconocimiento i {
+}
+.cajitaconocimiento i {
   margin-bottom: 15px;
   font-size: 80px;
- }
- .textocajita {
+}
+.textocajita {
   font-family: "Josefin Sans", sans-serif;
   font-size: 0.9em;
- }
- .cajitaconocimiento:hover {
+}
+.cajitaconocimiento:hover {
   border-color: purple;
- }
+}
 
-
- .section3 {
+.section3 {
   width: 100%;
   background-color: rgb(134, 199, 183);
- }
- .textosection3 {
+}
+.textosection3 {
   width: 50%;
   padding-top: 4em;
   padding-bottom: 4em;
@@ -156,41 +152,40 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
- }
- .comillas {
+}
+.comillas {
   font-size: 5em;
   padding-bottom: 25px;
- }
- .parrafosection3 {
+}
+.parrafosection3 {
   font-family: "Montserrat Alternates", sans-serif;
   text-align: center;
   padding-bottom: 25px;
- }
- .someonesection3 {
+}
+.someonesection3 {
   font-family: "Koulen", sans-serif;
   font-size: 2em;
- }
+}
 
-
- .section4{
+.section4 {
   width: 100%;
   background-color: rgb(243, 243, 243);
   padding-bottom: 15em;
- }
- .contenedorproyectos {
+}
+.contenedorproyectos {
   text-align: center;
   padding: 5em;
- }
- .misproyectos{
+}
+.misproyectos {
   padding-bottom: 1.2em;
   font-family: "Koulen", sans-serif;
   font-size: 3em;
- }
- .parrafomisproyectos{
+}
+.parrafomisproyectos {
   font-family: "Montserrat Alternates", sans-serif;
   font-size: 1.2em;
- }
- .cajasproyecto{
+}
+.cajasproyecto {
   width: 67%;
   height: 51em;
   margin: auto;
@@ -199,7 +194,7 @@
   align-items: center;
   flex-wrap: wrap;
 }
- .cajitaproyecto{
+.cajitaproyecto {
   width: 18em;
   height: 16em;
   display: flex;
@@ -208,23 +203,124 @@
   flex-direction: column;
   align-items: center;
   border: solid 1px rgb(187, 184, 184);
- }
- .textocajitaproyecto{
+}
+.textocajitaproyecto {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.1em;
   margin-bottom: 1em;
- }
- .cajitaproyecto:hover {
-   border: solid 1px purple;
- }
- .textocajitaproyecto:hover{
+}
+.cajitaproyecto:hover {
+  border: solid 1px purple;
+  color: purple;
+}
 
- }
+.section5 {
+  width: 100%;
+  background-color: chartreuse;
+  padding-bottom: 10em;
+  padding-top: 10em;
+}
+.cajasformulario {
+  width: 70%;
+  height: 33em;
+  background-color: brown;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.cajaformulario1 {
+  background-color: cadetblue;
+  height: 60%;
+  background-color: rgb(134, 199, 183);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cajaformulario2 {
+  background-color: cadetblue;
+  width: 40%;
+  height: 60%;
+}
 
- *// no me cambia el color del texto de la cajita proyecto.
+form {
+  align-items: flex-end;
+}
+.cajaformulario1 .contactame {
+  font-family: "Koulen", sans-serif;
+  font-size: 45px;
+}
 
+.cajaformulario2 .escribime {
+  font-family: "Koulen", sans-serif;
+  font-size: 45px;
+}
 
+.cajaformulario1 .parrafoformulario {
+  font-family: "Montserrat Alternates", sans-serif;
+  margin-bottom: 25px;
+}
 
+.cajaformulario1 .contactoLinks {
+  list-style: none;
+}
 
+.contactoItem {
+  padding: 5px 10px;
+  
+}
 
+.link {
+  margin-right: 10px;
+  font-family: "Montserrat Alternates", sans-serif;
+  margin-bottom: 25px;
+}
+.fa-brands:hover{
+color: red;
+}
+.fa-solid:hover{
+  color: red;
+  }
 
+label{
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+ padding-top: 20px;
+}
+input{
+  height: 35px;
+  border-radius: 20px;
+  background-color: #f6f7fb;
+    border: 1px solid #f6f7fb;
+}
+.nombreApellido{
+  display:flex;
+  flex-direction: row;
+}
+
+.email {
+display:flex;
+flex-direction: column;
+}
+
+.mensaje {
+  display:flex;
+  flex-direction: column;
+  }
+
+.mensaje textarea{
+  border-radius: 20px;
+  background-color: #f6f7fb;
+  border: 1px solid #f6f7fb;
+}
+
+.mensaje .btn{
+  height: 40px;
+  width: 30%;
+  border-radius: 100px;
+  color: white;
+  background-color: #8338ec;
+  border-color: #8338ec;
+  margin-top:10px;
+}
