@@ -23,17 +23,17 @@
 
   <header>
     <nav class="navegador">
-      <a href="" class="nav1" style="text-decoration: none">HOLA</a>
+      <a href="#hola" class="nav1" style="text-decoration: none">HOLA</a>
       <a href="#conocimientos" class="nav1" style="text-decoration: none">CONOCIMIENTOS</a>
-      <a href="" class="nav1" style="text-decoration: none">PROYECTOS</a>
-      <a href="" class="nav1" style="text-decoration: none">
+      <a href="#proyectos" class="nav1" style="text-decoration: none">PROYECTOS</a>
+      <a href="#contacto" class="nav1" style="text-decoration: none">
         <button class="contacto">CONTACTO</button>
       </a>
     </nav>
   </header>
 
 
-  <section class="section1">
+  <section class="section1" id="hola">
     <div class="inicio">
       <h2 class="holasoy">¡Hola! Soy</h2>
       <h1 class="delfina">Delfina Vassalini</h1>
@@ -103,7 +103,7 @@
   </section>
 
 
-  <section class="section4">
+  <section class="section4" id="proyectos">
     <div class="contenedorproyectos">
       <h1 class="misproyectos">Mis proyectos</h1>
       <p class="parrafomisproyectos">
@@ -146,9 +146,10 @@
   </section>
 
 
-  <section class="section5">
+  <section class="section5" id="contacto">
     <div class="cajasformulario">
       <div class="cajaformulario1">
+        <div class="contactameParrafo">
         <h1 class="contactame">Contactame</h1>
         <p class="parrafoformulario">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
@@ -156,7 +157,8 @@
           facere amet vel! Quos iste illum voluptas cumque nisi. <br />
           Sed ratione nesciunt assumenda accusantium.
         </p>
-        <div class="">
+        </div>
+        <div class="items">
           <ul class="contactoLinks">
             <li class="contactoItem">
               <a class="link">
@@ -192,20 +194,20 @@
           <div class="nombreApellido">
             <div class="nombre">
               <label for="nombre">Nombre *</label>
-              <input type="text" placeholder="p. ej:Ada" id="nombre">
+              <input type="text" placeholder="p. ej.:Ada" id="nombre" required>
             </div>
             <div class="apellido">
               <label for="apellido">Apellido *</label>
-              <input type="text" id="apellido">
+              <input type="text" placeholder="p. ej.:Lovelace" id="apellido" required>
             </div>
           </div>
           <div class="email">
             <label for="email">Email *</label>
-            <input type="text" id="email">
+            <input type="text" placeholder="p. ej.:Ada.lovelace@mail.com" id="email" required>
           </div>
           <div class="mensaje">
             <label for="mensaje">Mensaje *</label>
-            <textarea cols="30" rows="5" id="mensaje"></textarea>
+            <textarea cols="30" rows="5" placeholder="Escriba un mensaje aquí" id="mensaje" required></textarea>
             <input class="btn" type="submit" value="Enviar">
           </div>
         </form>
@@ -214,7 +216,23 @@
   </section>
 
 
-  <footer></footer>
+  <footer>
+    <div class="navFinal">
+      <a href="#hola" class="nav2" style="text-decoration: none">HOLA</a>
+      <a href="#conocimientos" class="nav2" style="text-decoration: none">CONOCIMIENTOS</a>
+      <a href="#proyectos" class="nav2" style="text-decoration: none">PROYECTOS</a>
+      <a href="#contacto" class="nav2" style="text-decoration: none">CONTACTO </a>
+    </div>
+    <div class="itemsNavFinal">
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-solid fa-envelope"></i>
+    </div>
+    <div class="hechoConAmor">
+      <h1>Hecho con ❤️ por Delfi</h1>
+    </div>
+  </footer>
 </body>
 
 </html>
